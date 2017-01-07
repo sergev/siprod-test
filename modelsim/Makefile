@@ -30,7 +30,7 @@ INCLUDES        = $(MICROBESM_HOME)/microcode/microcode.v \
 # Altera Quartus toolchain
 MODELSIM        = /opt/Altera/16.0/modelsim_ase/linuxaloem
 
-RUNFLAGS        = +hex=../test.hex +clearmem
+RUNFLAGS        = +hex=../test.hex #+clearmem
 RUNFLAGS	+= +limit=20000000	# Limit by a number of cycles
 #RUNFLAGS	+= +trace=0		# No trace
 RUNFLAGS	+= +trace=1		# Print instructions

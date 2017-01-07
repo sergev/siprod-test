@@ -1,3 +1,5 @@
 *.lst
+*.trace
+*.log
 startup.hex
 modelsim/work/
